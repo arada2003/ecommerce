@@ -1,0 +1,45 @@
+.featuredproducts-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer; 
+  }
+  
+  .featuredproducts-card:hover {
+    transform: scale(1.002);
+    box-shadow: 0 1px 10px rgba(176, 172, 182, 0.849);
+  }
+  
+  .card-overlay {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .cart-icon {
+    font-size: 20px;
+  }
+
+.table-re {
+    margin-top: 10px ;
+    margin: auto ;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 1280px;
+    width: 100%;
+    border-bottom: #d1d1d1 5px solid;
+}
+
+.col-re {
+  background-color: #ffffff;
+}
